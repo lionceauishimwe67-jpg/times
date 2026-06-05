@@ -1,0 +1,166 @@
+.manager-dashboard {
+  padding: 24px;
+  background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 50%, #3d7ab5 100%);
+  min-height: 100vh;
+  color: white;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.dashboard-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.system-status {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: white;
+}
+
+.dashboard-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.section {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 24px;
+  backdrop-filter: blur(10px);
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  color: #00d4ff;
+}
+
+.lesson-card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.lesson-card.active {
+  background: rgba(16, 185, 129, 0.2);
+  border: 2px solid #10b981;
+}
+
+.lesson-card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  color: #00d4ff;
+}
+
+.lesson-card p {
+  margin: 8px 0;
+  font-size: 0.95rem;
+}
+
+.countdown {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.countdown p {
+  margin: 0 0 8px 0;
+  font-size: 0.9rem;
+}
+
+.countdown-timer {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #10b981;
+}
+
+.no-lesson {
+  text-align: center;
+  padding: 32px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.notifications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.notification-card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding: 12px;
+  animation: slideIn 0.3s ease;
+}
+
+.notification-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+  color: #00d4ff;
+}
+
+.notification-card p {
+  margin: 4px 0;
+  font-size: 0.9rem;
+}
+
+.notification-card .timestamp {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 8px;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.loading {
+  text-align: center;
+  padding: 48px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1200px) {
+  .dashboard-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .manager-dashboard {
+    padding: 16px;
+  }
+
+  .dashboard-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .dashboard-header h1 {
+    font-size: 1.8rem;
+  }
+}

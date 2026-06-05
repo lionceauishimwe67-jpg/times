@@ -1,0 +1,4102 @@
+[
+  {
+    "file": "Copy of LYCEE TIME TABLE 5.xlsx",
+    "sheet": "S6ACC",
+    "classInfo": "",
+    "level": "",
+    "schedule": [
+      {
+        "time": "7:50'-8:10'",
+        "day": "Monday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Tuesday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Wednesday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Thursday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Friday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Monday",
+        "subject": "FA",
+        "teacherId": 29
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Tuesday",
+        "subject": "MATH",
+        "teacherId": 19
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Wednesday",
+        "subject": "MAN ACC",
+        "teacherId": 14
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Thursday",
+        "subject": "MATH",
+        "teacherId": 19
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Friday",
+        "subject": "ENGLISH",
+        "teacherId": 22
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Monday",
+        "subject": "FA",
+        "teacherId": 33
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Tuesday",
+        "subject": "MATH",
+        "teacherId": 19
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Wednesday",
+        "subject": "MAN ACC",
+        "teacherId": 14
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Thursday",
+        "subject": "MATH",
+        "teacherId": 19
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Friday",
+        "subject": "ENGLISH",
+        "teacherId": 22
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Monday",
+        "subject": "FA",
+        "teacherId": 33
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Tuesday",
+        "subject": "FA",
+        "teacherId": 29
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Wednesday",
+        "subject": "MAN ACC",
+        "teacherId": 14
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Thursday",
+        "subject": "MATH",
+        "teacherId": 19
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Friday",
+        "subject": "ENGLISH",
+        "teacherId": 22
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Monday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Tuesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Wednesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Thursday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Friday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Monday",
+        "subject": "AUDIT",
+        "teacherId": 14
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Tuesday",
+        "subject": "AUDIT",
+        "teacherId": 14
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Wednesday",
+        "subject": "AUDIT",
+        "teacherId": 14
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Thursday",
+        "subject": "KINYA",
+        "teacherId": 21
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Friday",
+        "subject": "MAN ACC",
+        "teacherId": 14
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Monday",
+        "subject": "TAXATION",
+        "teacherId": 8
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Tuesday",
+        "subject": "AUDIT",
+        "teacherId": 14
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Wednesday",
+        "subject": "AUDIT",
+        "teacherId": 14
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Thursday",
+        "subject": "KINYA",
+        "teacherId": 21
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Friday",
+        "subject": "MAN ACC",
+        "teacherId": 14
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Monday",
+        "subject": "TAXATION",
+        "teacherId": 8
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Tuesday",
+        "subject": "AUDIT",
+        "teacherId": 14
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Wednesday",
+        "subject": "AUDIT",
+        "teacherId": 14
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Thursday",
+        "subject": "KINYA",
+        "teacherId": 21
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Friday",
+        "subject": "MAN ACC",
+        "teacherId": 14
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Monday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Tuesday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Thursday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Friday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Monday",
+        "subject": "FRANCAIS( )"
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Tuesday",
+        "subject": "GEN STUDIES",
+        "teacherId": 21
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Wednesday",
+        "subject": "ICT",
+        "teacherId": 33
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Thursday",
+        "subject": "EN.SHIP",
+        "teacherId": 14
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Friday",
+        "subject": "FA",
+        "teacherId": 29
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Monday",
+        "subject": "FRANCAIS( )"
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Tuesday",
+        "subject": "GEN STUDIES",
+        "teacherId": 21
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Wednesday",
+        "subject": "ICT",
+        "teacherId": 33
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Thursday",
+        "subject": "EN.SHIP",
+        "teacherId": 14
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Friday",
+        "subject": "FA",
+        "teacherId": 29
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Monday",
+        "subject": "FRANCAIS( )"
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Tuesday",
+        "subject": "GEN STUDIES",
+        "teacherId": 21
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Wednesday",
+        "subject": "ICT",
+        "teacherId": 33
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Thursday",
+        "subject": "EN.SHIP",
+        "teacherId": 14
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Friday",
+        "subject": "FA",
+        "teacherId": 29
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Monday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Tuesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Wednesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Thursday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Friday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Monday",
+        "subject": "GEN STUDIES",
+        "teacherId": 21
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Tuesday",
+        "subject": "PHYSICAL ED",
+        "teacherId": 15
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Wednesday",
+        "subject": "AUDIT",
+        "teacherId": 14
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Thursday",
+        "subject": "ICT",
+        "teacherId": 14
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Friday",
+        "subject": "ICT",
+        "teacherId": 14
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Monday",
+        "subject": "GEN STUDIES",
+        "teacherId": 21
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Tuesday",
+        "subject": "PHYSICAL ED",
+        "teacherId": 15
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Thursday",
+        "subject": "ICT",
+        "teacherId": 14
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Friday",
+        "subject": "ICT",
+        "teacherId": 14
+      }
+    ]
+  },
+  {
+    "file": "Copy of LYCEE TIME TABLE 5.xlsx",
+    "sheet": "L5NIT",
+    "classInfo": "LEVEL V NETWORKING AND INTERNET TECHNOLOGIES",
+    "level": "LEVEL V",
+    "schedule": [
+      {
+        "time": "7:50'-8:10'",
+        "day": "Monday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Tuesday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Wednesday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Thursday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Friday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Monday",
+        "subject": "FRANCAIS ()"
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Tuesday",
+        "subject": "CCMBO",
+        "teacherId": 16
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Wednesday",
+        "subject": "NITLS",
+        "teacherId": 23
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Thursday",
+        "subject": "NITCS",
+        "teacherId": 10
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Friday",
+        "subject": "NITML",
+        "teacherId": 10
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Monday",
+        "subject": "FRANCAIS ()"
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Tuesday",
+        "subject": "CCMBO",
+        "teacherId": 16
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Wednesday",
+        "subject": "NITLS",
+        "teacherId": 23
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Thursday",
+        "subject": "NITCS",
+        "teacherId": 10
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Friday",
+        "subject": "NITML",
+        "teacherId": 10
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Monday",
+        "subject": "CCMCZ",
+        "teacherId": 25
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Tuesday",
+        "subject": "CCMBO",
+        "teacherId": 16
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Wednesday",
+        "subject": "NITLS",
+        "teacherId": 23
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Thursday",
+        "subject": "NITCS",
+        "teacherId": 10
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Friday",
+        "subject": "MATH",
+        "teacherId": 19
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Monday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Tuesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Wednesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Thursday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Friday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Monday",
+        "subject": "NITZC",
+        "teacherId": 20
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Tuesday",
+        "subject": "NITL",
+        "teacherId": 23
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Wednesday",
+        "subject": "GENPP",
+        "teacherId": 20
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Thursday",
+        "subject": "MATH",
+        "teacherId": 19
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Friday",
+        "subject": "MATH",
+        "teacherId": 19
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Monday",
+        "subject": "NITZC",
+        "teacherId": 20
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Tuesday",
+        "subject": "NITL",
+        "teacherId": 23
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Wednesday",
+        "subject": "GENPP",
+        "teacherId": 20
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Thursday",
+        "subject": "MATH",
+        "teacherId": 19
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Friday",
+        "subject": "CCMEN",
+        "teacherId": 22
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Monday",
+        "subject": "NITZC",
+        "teacherId": 20
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Tuesday",
+        "subject": "NITL",
+        "teacherId": 23
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Wednesday",
+        "subject": "GENPP",
+        "teacherId": 20
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Thursday",
+        "subject": "MATH",
+        "teacherId": 19
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Friday",
+        "subject": "CCMEN",
+        "teacherId": 22
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Monday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Tuesday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Wednesday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Thursday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Friday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Monday",
+        "subject": "NITML",
+        "teacherId": 10
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Tuesday",
+        "subject": "NITCC",
+        "teacherId": 20
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Wednesday",
+        "subject": "CCMKK",
+        "teacherId": 7
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Thursday",
+        "subject": "NITCS",
+        "teacherId": 10
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Friday",
+        "subject": "CCMIW",
+        "teacherId": 13
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Monday",
+        "subject": "NITML",
+        "teacherId": 10
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Tuesday",
+        "subject": "NITCC",
+        "teacherId": 20
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Wednesday",
+        "subject": "GENDW",
+        "teacherId": 6
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Thursday",
+        "subject": "NITCS",
+        "teacherId": 10
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Friday",
+        "subject": "CCMIW",
+        "teacherId": 13
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Monday",
+        "subject": "NITML",
+        "teacherId": 10
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Tuesday",
+        "subject": "NITCC",
+        "teacherId": 20
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Wednesday",
+        "subject": "GENDW",
+        "teacherId": 6
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Monday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Tuesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Wednesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Thursday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Friday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Monday",
+        "subject": "GENDW",
+        "teacherId": 6
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Tuesday",
+        "subject": "NITCC",
+        "teacherId": 20
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Wednesday",
+        "subject": "CCMKN",
+        "teacherId": 18
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Thursday",
+        "subject": "CCMKN",
+        "teacherId": 21
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Friday",
+        "subject": "NITCC()"
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Monday",
+        "subject": "GENDW",
+        "teacherId": 6
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Tuesday",
+        "subject": "NITCC",
+        "teacherId": 20
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Thursday",
+        "subject": "CCMKN",
+        "teacherId": 21
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Friday",
+        "subject": "NITCC()"
+      }
+    ]
+  },
+  {
+    "file": "Copy of LYCEE TIME TABLE 5.xlsx",
+    "sheet": "L5SWD",
+    "classInfo": "",
+    "level": "",
+    "schedule": [
+      {
+        "time": "7:50'-8:10'",
+        "day": "Monday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Tuesday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Wednesday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Thursday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Friday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Monday",
+        "subject": "SWDFA",
+        "teacherId": 9
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Tuesday",
+        "subject": "SWDOT",
+        "teacherId": 26
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Wednesday",
+        "subject": "CCMKN",
+        "teacherId": 21
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Thursday",
+        "subject": "GENPP",
+        "teacherId": 20
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Friday",
+        "subject": "GENAP",
+        "teacherId": 19
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Monday",
+        "subject": "SWDFA",
+        "teacherId": 9
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Tuesday",
+        "subject": "SWDOT",
+        "teacherId": 26
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Wednesday",
+        "subject": "CCMKN",
+        "teacherId": 21
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Thursday",
+        "subject": "GENPP",
+        "teacherId": 20
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Friday",
+        "subject": "GENAP",
+        "teacherId": 19
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Monday",
+        "subject": "SWDFA",
+        "teacherId": 9
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Tuesday",
+        "subject": "SWDOT",
+        "teacherId": 26
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Wednesday",
+        "subject": "CCMBO",
+        "teacherId": 16
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Thursday",
+        "subject": "GENPP",
+        "teacherId": 20
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Friday",
+        "subject": "GENAP",
+        "teacherId": 19
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Monday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Tuesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Wednesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Thursday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Friday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Monday",
+        "subject": "GENAP",
+        "teacherId": 19
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Tuesday",
+        "subject": "SWDML",
+        "teacherId": 10
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Wednesday",
+        "subject": "SWDND",
+        "teacherId": 26
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Thursday",
+        "subject": "SWDBF",
+        "teacherId": 20
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Friday",
+        "subject": "GENDW",
+        "teacherId": 6
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Monday",
+        "subject": "GENAP",
+        "teacherId": 19
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Tuesday",
+        "subject": "SWDML",
+        "teacherId": 10
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Wednesday",
+        "subject": "SWDND",
+        "teacherId": 26
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Thursday",
+        "subject": "SWDBF",
+        "teacherId": 20
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Friday",
+        "subject": "GENDW",
+        "teacherId": 6
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Monday",
+        "subject": "GENAP",
+        "teacherId": 19
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Tuesday",
+        "subject": "SWDML",
+        "teacherId": 10
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Wednesday",
+        "subject": "SWDND",
+        "teacherId": 26
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Thursday",
+        "subject": "SWDBF",
+        "teacherId": 20
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Monday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Tuesday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Wednesday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Thursday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Friday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Monday",
+        "subject": "FRANCAIS"
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Tuesday",
+        "subject": "CCMIW",
+        "teacherId": 13
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Wednesday",
+        "subject": "CCMEN",
+        "teacherId": 22
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Thursday",
+        "subject": "CCMCZP",
+        "teacherId": 25
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Friday",
+        "subject": "SWDFA",
+        "teacherId": 9
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Monday",
+        "subject": "FRANCAIS"
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Tuesday",
+        "subject": "SWDOT",
+        "teacherId": 26
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Wednesday",
+        "subject": "SWDMA",
+        "teacherId": 23
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Thursday",
+        "subject": "CCMKK",
+        "teacherId": 3
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Friday",
+        "subject": "SWDFA",
+        "teacherId": 9
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Monday",
+        "subject": "CCMBO",
+        "teacherId": 19
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Tuesday",
+        "subject": "SWDOT",
+        "teacherId": 26
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Wednesday",
+        "subject": "SWDMA",
+        "teacherId": 23
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Thursday",
+        "subject": "CCMKK",
+        "teacherId": 3
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Friday",
+        "subject": "SPORT",
+        "teacherId": 15
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Monday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Tuesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Wednesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Thursday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Friday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Monday",
+        "subject": "GENDW",
+        "teacherId": 6
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Tuesday",
+        "subject": "SWDML",
+        "teacherId": 10
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Wednesday",
+        "subject": "SWDMA",
+        "teacherId": 23
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Thursday",
+        "subject": "SWDBF",
+        "teacherId": 20
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Friday",
+        "subject": "CCMEN",
+        "teacherId": 22
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Monday",
+        "subject": "GENDW",
+        "teacherId": 6
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Tuesday",
+        "subject": "SWDML",
+        "teacherId": 10
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Thursday",
+        "subject": "SWDBF",
+        "teacherId": 20
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Friday",
+        "subject": "CCMQA",
+        "teacherId": 11
+      }
+    ]
+  },
+  {
+    "file": "Copy of LYCEE TIME TABLE 5.xlsx",
+    "sheet": "L5FAD",
+    "classInfo": "",
+    "level": "",
+    "schedule": [
+      {
+        "time": "7:50'-8:10'",
+        "day": "Monday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Tuesday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Wednesday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Thursday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Friday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Monday",
+        "subject": "MATH",
+        "teacherId": 24
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Tuesday",
+        "subject": "CCMKN",
+        "teacherId": 21
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Wednesday",
+        "subject": "FADMS",
+        "teacherId": 4
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Thursday",
+        "subject": "FADEG",
+        "teacherId": 12
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Friday",
+        "subject": "MATH",
+        "teacherId": 24
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Monday",
+        "subject": "MATH",
+        "teacherId": 24
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Tuesday",
+        "subject": "CCMKN",
+        "teacherId": 21
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Wednesday",
+        "subject": "FADMS",
+        "teacherId": 4
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Thursday",
+        "subject": "FADEG",
+        "teacherId": 12
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Friday",
+        "subject": "MATH",
+        "teacherId": 24
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Monday",
+        "subject": "MATH",
+        "teacherId": 24
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Tuesday",
+        "subject": "MATH",
+        "teacherId": 24
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Wednesday",
+        "subject": "FADMS",
+        "teacherId": 4
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Thursday",
+        "subject": "FADEG",
+        "teacherId": 12
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Friday",
+        "subject": "MATH",
+        "teacherId": 24
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Monday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Tuesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Wednesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Thursday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Friday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Monday",
+        "subject": "FADDP",
+        "teacherId": 28
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Tuesday",
+        "subject": "FADDI",
+        "teacherId": 4
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Wednesday",
+        "subject": "CCMCZ",
+        "teacherId": 25
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Thursday",
+        "subject": "FADWW",
+        "teacherId": 27
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Friday",
+        "subject": "FADMS",
+        "teacherId": 4
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Monday",
+        "subject": "FADDP",
+        "teacherId": 28
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Tuesday",
+        "subject": "FADDI",
+        "teacherId": 4
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Wednesday",
+        "subject": "CCMKK",
+        "teacherId": 7
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Thursday",
+        "subject": "FADWW",
+        "teacherId": 27
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Friday",
+        "subject": "FADMS",
+        "teacherId": 4
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Monday",
+        "subject": "FADDP",
+        "teacherId": 28
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Tuesday",
+        "subject": "FADDI",
+        "teacherId": 4
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Wednesday",
+        "subject": "SPORT",
+        "teacherId": 15
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Thursday",
+        "subject": "FADWW",
+        "teacherId": 27
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Friday",
+        "subject": "FADMS",
+        "teacherId": 4
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Monday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Tuesday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Wednesday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Thursday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Friday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Monday",
+        "subject": "CCMEN",
+        "teacherId": 22
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Tuesday",
+        "subject": "FADFA",
+        "teacherId": 27
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Wednesday",
+        "subject": "FADFA",
+        "teacherId": 27
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Thursday",
+        "subject": "FADMW",
+        "teacherId": 4
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Friday",
+        "subject": "ICT",
+        "teacherId": 13
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Monday",
+        "subject": "CCMEN",
+        "teacherId": 22
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Tuesday",
+        "subject": "FADFA",
+        "teacherId": 27
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Wednesday",
+        "subject": "FADFA",
+        "teacherId": 27
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Thursday",
+        "subject": "FADMW",
+        "teacherId": 4
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Friday",
+        "subject": "ICT",
+        "teacherId": 13
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Monday",
+        "subject": "CCMKK",
+        "teacherId": 7
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Tuesday",
+        "subject": "FADFA",
+        "teacherId": 27
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Wednesday",
+        "subject": "FADFA",
+        "teacherId": 27
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Thursday",
+        "subject": "FADMW",
+        "teacherId": 4
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Friday",
+        "subject": "FADMS",
+        "teacherId": 4
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Monday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Tuesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Wednesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Thursday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Friday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Monday",
+        "subject": "FRANCAIS"
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Tuesday",
+        "subject": "CCMPE",
+        "teacherId": 14
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Wednesday",
+        "subject": "FADFA",
+        "teacherId": 27
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Thursday",
+        "subject": "CCMBO",
+        "teacherId": 16
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Friday",
+        "subject": "FADMS",
+        "teacherId": 4
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Monday",
+        "subject": "FRANCAIS"
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Tuesday",
+        "subject": "CCMPE",
+        "teacherId": 14
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Thursday",
+        "subject": "CCMBO",
+        "teacherId": 16
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Friday",
+        "subject": "FADMS",
+        "teacherId": 4
+      }
+    ]
+  },
+  {
+    "file": "Copy of LYCEE TIME TABLE 5.xlsx",
+    "sheet": "L5CSA",
+    "classInfo": "",
+    "level": "",
+    "schedule": [
+      {
+        "time": "7:50'-8:10'",
+        "day": "Monday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Tuesday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Wednesday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Thursday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Friday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Monday",
+        "subject": "GENAM",
+        "teacherId": 19
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Tuesday",
+        "subject": "CSADS",
+        "teacherId": 23
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Wednesday",
+        "subject": "GENWS",
+        "teacherId": 5
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Thursday",
+        "subject": "CSAHK",
+        "teacherId": 23
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Friday",
+        "subject": "CCMBO",
+        "teacherId": 16
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Monday",
+        "subject": "GENAM",
+        "teacherId": 19
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Tuesday",
+        "subject": "CSADS",
+        "teacherId": 23
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Wednesday",
+        "subject": "GENWS",
+        "teacherId": 5
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Thursday",
+        "subject": "CSAHK",
+        "teacherId": 23
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Friday",
+        "subject": "CCMBO",
+        "teacherId": 16
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Monday",
+        "subject": "GENAM",
+        "teacherId": 19
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Tuesday",
+        "subject": "CSADS",
+        "teacherId": 23
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Wednesday",
+        "subject": "GENWS",
+        "teacherId": 5
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Thursday",
+        "subject": "CSAHK",
+        "teacherId": 23
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Friday",
+        "subject": "CCMBO",
+        "teacherId": 16
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Monday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Tuesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Wednesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Thursday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Friday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Monday",
+        "subject": "CSAPS",
+        "teacherId": 17
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Tuesday",
+        "subject": "CCMEN",
+        "teacherId": 22
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Wednesday",
+        "subject": "GENAM",
+        "teacherId": 19
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Thursday",
+        "subject": "CCMKK",
+        "teacherId": 7
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Monday",
+        "subject": "CSAPS",
+        "teacherId": 17
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Tuesday",
+        "subject": "CCMEN",
+        "teacherId": 22
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Wednesday",
+        "subject": "GENAM",
+        "teacherId": 19
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Thursday",
+        "subject": "GENDW",
+        "teacherId": 6
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Friday",
+        "subject": "GENDW",
+        "teacherId": 6
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Monday",
+        "subject": "CSAPS",
+        "teacherId": 17
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Tuesday",
+        "subject": "CCMEN",
+        "teacherId": 22
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Wednesday",
+        "subject": "GENAM",
+        "teacherId": 19
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Thursday",
+        "subject": "GENDW",
+        "teacherId": 6
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Friday",
+        "subject": "GENDW",
+        "teacherId": 6
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Monday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Tuesday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Wednesday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Thursday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Friday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Monday",
+        "subject": "GENWS",
+        "teacherId": 5
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Tuesday",
+        "subject": "CCMCZP",
+        "teacherId": 25
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Wednesday",
+        "subject": "GENQA",
+        "teacherId": 11
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Thursday",
+        "subject": "CSACH",
+        "teacherId": 11
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Friday",
+        "subject": "GENQA",
+        "teacherId": 11
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Monday",
+        "subject": "GENWS",
+        "teacherId": 5
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Tuesday",
+        "subject": "GENDS",
+        "teacherId": 23
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Wednesday",
+        "subject": "CCMKN",
+        "teacherId": 21
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Thursday",
+        "subject": "CSACH",
+        "teacherId": 11
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Friday",
+        "subject": "GENQA",
+        "teacherId": 11
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Monday",
+        "subject": "GENWS",
+        "teacherId": 5
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Tuesday",
+        "subject": "GENDS",
+        "teacherId": 23
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Wednesday",
+        "subject": "CCMKN",
+        "teacherId": 21
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Thursday",
+        "subject": "CSACH",
+        "teacherId": 11
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Friday",
+        "subject": "CCMEN",
+        "teacherId": 7
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Monday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Tuesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Wednesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Thursday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Friday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Monday",
+        "subject": "FRANCAIS"
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Tuesday",
+        "subject": "CSAHK",
+        "teacherId": 23
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Wednesday",
+        "subject": "CCMIW",
+        "teacherId": 17
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Thursday",
+        "subject": "CCMIW",
+        "teacherId": 13
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Friday",
+        "subject": "GENWS",
+        "teacherId": 5
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Monday",
+        "subject": "FRANCAIS"
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Tuesday",
+        "subject": "CSAHK",
+        "teacherId": 23
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Thursday",
+        "subject": "CCMIW",
+        "teacherId": 13
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Friday",
+        "subject": "GENWS",
+        "teacherId": 5
+      }
+    ]
+  },
+  {
+    "file": "LYCEE TIME TABLE 5.xlsx",
+    "sheet": "L5NIT",
+    "classInfo": "LEVEL V NETWORKING AND INTERNET TECHNOLOGIES",
+    "level": "LEVEL V",
+    "schedule": [
+      {
+        "time": "7:50'-8:10'",
+        "day": "Monday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Tuesday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Wednesday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Thursday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Friday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Tuesday",
+        "subject": "CCMBO",
+        "teacherId": 19
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Wednesday",
+        "subject": "NITLS",
+        "teacherId": 24
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Thursday",
+        "subject": "NITCS",
+        "teacherId": 13
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Friday",
+        "subject": "GENPP",
+        "teacherId": 8
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Tuesday",
+        "subject": "CCMBO",
+        "teacherId": 19
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Wednesday",
+        "subject": "NITLS",
+        "teacherId": 24
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Thursday",
+        "subject": "NITCS",
+        "teacherId": 13
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Friday",
+        "subject": "GENPP",
+        "teacherId": 8
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Tuesday",
+        "subject": "CCMIW",
+        "teacherId": 17
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Wednesday",
+        "subject": "GENDW",
+        "teacherId": 21
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Thursday",
+        "subject": "NITCS",
+        "teacherId": 13
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Friday",
+        "subject": "CCMCZP",
+        "teacherId": 26
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Monday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Tuesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Wednesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Thursday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Friday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Monday",
+        "subject": "GENPP",
+        "teacherId": 8
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Tuesday",
+        "subject": "NITCS",
+        "teacherId": 13
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Wednesday",
+        "subject": "GENDW",
+        "teacherId": 21
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Thursday",
+        "subject": "NITML",
+        "teacherId": 11
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Friday",
+        "subject": "NITZC",
+        "teacherId": 22
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Monday",
+        "subject": "GENPP",
+        "teacherId": 8
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Tuesday",
+        "subject": "NITCS",
+        "teacherId": 13
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Wednesday",
+        "subject": "MATH",
+        "teacherId": 1
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Thursday",
+        "subject": "NITML",
+        "teacherId": 11
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Friday",
+        "subject": "NITZC",
+        "teacherId": 22
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Monday",
+        "subject": "GENPP",
+        "teacherId": 8
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Tuesday",
+        "subject": "NITCS",
+        "teacherId": 13
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Wednesday",
+        "subject": "CCMKK",
+        "teacherId": 3
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Thursday",
+        "subject": "NITCC()"
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Friday",
+        "subject": "NITZC",
+        "teacherId": 22
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Monday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Tuesday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Wednesday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Thursday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Friday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Monday",
+        "subject": "NITML",
+        "teacherId": 11
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Tuesday",
+        "subject": "CCMPE",
+        "teacherId": 11
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Wednesday",
+        "subject": "CCMKK",
+        "teacherId": 3
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Thursday",
+        "subject": "NITLS",
+        "teacherId": 24
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Friday",
+        "subject": "NITLS",
+        "teacherId": 24
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Monday",
+        "subject": "NITML",
+        "teacherId": 11
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Tuesday",
+        "subject": "FRANCAIS",
+        "teacherId": 28
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Wednesday",
+        "subject": "MATH",
+        "teacherId": 1
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Thursday",
+        "subject": "NITLS",
+        "teacherId": 24
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Friday",
+        "subject": "NITCC()"
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Monday",
+        "subject": "NITML",
+        "teacherId": 11
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Tuesday",
+        "subject": "FRANCAIS",
+        "teacherId": 28
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Wednesday",
+        "subject": "MATH",
+        "teacherId": 1
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Thursday",
+        "subject": "NITLS",
+        "teacherId": 24
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Monday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Tuesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Wednesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Thursday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Friday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Monday",
+        "subject": "CCMEN",
+        "teacherId": 7
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Tuesday",
+        "subject": "MATH",
+        "teacherId": 1
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Wednesday",
+        "subject": "NITIAP",
+        "teacherId": 11
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Thursday",
+        "subject": "CCMKN",
+        "teacherId": 23
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Friday",
+        "subject": "NITCC()"
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Monday",
+        "subject": "CCMEN",
+        "teacherId": 7
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Thursday",
+        "subject": "CCMKN",
+        "teacherId": 23
+      }
+    ]
+  },
+  {
+    "file": "LYCEE TIME TABLE 5.xlsx",
+    "sheet": "L5SWD",
+    "classInfo": "",
+    "level": "",
+    "schedule": [
+      {
+        "time": "7:50'-8:10'",
+        "day": "Monday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Tuesday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Wednesday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Thursday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Friday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Tuesday",
+        "subject": "SWDMA",
+        "teacherId": 24
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Wednesday",
+        "subject": "GENDW",
+        "teacherId": 21
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Thursday",
+        "subject": "SWDFA",
+        "teacherId": 8
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Friday",
+        "subject": "SWDBF",
+        "teacherId": 22
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Tuesday",
+        "subject": "SWDMA",
+        "teacherId": 24
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Wednesday",
+        "subject": "GENDW",
+        "teacherId": 21
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Thursday",
+        "subject": "SWDFA",
+        "teacherId": 8
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Friday",
+        "subject": "SWDBF",
+        "teacherId": 22
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Tuesday",
+        "subject": "CCMKN",
+        "teacherId": 23
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Wednesday",
+        "subject": "CCMEN",
+        "teacherId": 7
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Thursday",
+        "subject": "SWDFA",
+        "teacherId": 8
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Friday",
+        "subject": "SWDBF",
+        "teacherId": 22
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Monday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Tuesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Wednesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Thursday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Friday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Monday",
+        "subject": "GENAP",
+        "teacherId": 1
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Tuesday",
+        "subject": "CCMKN",
+        "teacherId": 23
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Wednesday",
+        "subject": "SWDBF",
+        "teacherId": 22
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Thursday",
+        "subject": "GEPP",
+        "teacherId": 13
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Friday",
+        "subject": "SWDMA",
+        "teacherId": 24
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Monday",
+        "subject": "GENAP",
+        "teacherId": 1
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Tuesday",
+        "subject": "SWDND",
+        "teacherId": 8
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Wednesday",
+        "subject": "SWDBF",
+        "teacherId": 22
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Thursday",
+        "subject": "GEPP",
+        "teacherId": 13
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Friday",
+        "subject": "SWDMA",
+        "teacherId": 24
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Monday",
+        "subject": "GENAP",
+        "teacherId": 1
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Tuesday",
+        "subject": "SWDND",
+        "teacherId": 8
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Wednesday",
+        "subject": "FRANCAIS"
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Thursday",
+        "subject": "CCMKK",
+        "teacherId": 3
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Friday",
+        "subject": "CCMKK",
+        "teacherId": 3
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Monday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Tuesday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Wednesday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Thursday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Friday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Monday",
+        "subject": "CCMEN",
+        "teacherId": 7
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Tuesday",
+        "subject": "SWDND",
+        "teacherId": 8
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Wednesday",
+        "subject": "SWDML",
+        "teacherId": 13
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Thursday",
+        "subject": "CCMCZP",
+        "teacherId": 26
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Friday",
+        "subject": "GENQA",
+        "teacherId": 11
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Monday",
+        "subject": "CCMBO",
+        "teacherId": 19
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Tuesday",
+        "subject": "GEPP",
+        "teacherId": 13
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Wednesday",
+        "subject": "SWDML",
+        "teacherId": 13
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Thursday",
+        "subject": "SWDBF",
+        "teacherId": 22
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Friday",
+        "subject": "GENQA",
+        "teacherId": 11
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Monday",
+        "subject": "CCMBO",
+        "teacherId": 19
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Tuesday",
+        "subject": "GEPP",
+        "teacherId": 13
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Wednesday",
+        "subject": "SWDML",
+        "teacherId": 13
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Thursday",
+        "subject": "SWDBF",
+        "teacherId": 22
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Friday",
+        "subject": "SWDIAP",
+        "teacherId": 8
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Monday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Tuesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Wednesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Thursday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Friday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Monday",
+        "subject": "RELIGION",
+        "teacherId": 19
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Tuesday",
+        "subject": "SWDFA",
+        "teacherId": 8
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Wednesday",
+        "subject": "SWDFA",
+        "teacherId": 8
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Thursday",
+        "subject": "SWDML",
+        "teacherId": 13
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Friday",
+        "subject": "SWDML",
+        "teacherId": 13
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Monday",
+        "subject": "CCMIW",
+        "teacherId": 17
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Thursday",
+        "subject": "SWDML",
+        "teacherId": 13
+      }
+    ]
+  },
+  {
+    "file": "LYCEE TIME TABLE 5.xlsx",
+    "sheet": "S6ACC",
+    "classInfo": "",
+    "level": "",
+    "schedule": [
+      {
+        "time": "7:50'-8:10'",
+        "day": "Monday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Tuesday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Wednesday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Thursday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Friday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Tuesday",
+        "subject": "FA",
+        "teacherId": 33
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Wednesday",
+        "subject": "MAN ACC",
+        "teacherId": 18
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Thursday",
+        "subject": "MATH",
+        "teacherId": 1
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Friday",
+        "subject": "ENGLISH",
+        "teacherId": 7
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Tuesday",
+        "subject": "FA",
+        "teacherId": 33
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Wednesday",
+        "subject": "MAN ACC",
+        "teacherId": 18
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Thursday",
+        "subject": "MATH",
+        "teacherId": 1
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Friday",
+        "subject": "ENGLISH",
+        "teacherId": 7
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Tuesday",
+        "subject": "FA",
+        "teacherId": 33
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Wednesday",
+        "subject": "MAN ACC",
+        "teacherId": 18
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Thursday",
+        "subject": "MATH",
+        "teacherId": 1
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Friday",
+        "subject": "MATH",
+        "teacherId": 1
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Monday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Tuesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Wednesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Thursday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Friday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Monday",
+        "subject": "AUDIT",
+        "teacherId": 18
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Tuesday",
+        "subject": "AUDIT",
+        "teacherId": 18
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Wednesday",
+        "subject": "AUDIT",
+        "teacherId": 18
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Thursday",
+        "subject": "KINYA",
+        "teacherId": 23
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Friday",
+        "subject": "MAN ACC",
+        "teacherId": 18
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Monday",
+        "subject": "TAXATION",
+        "teacherId": 4
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Tuesday",
+        "subject": "AUDIT",
+        "teacherId": 18
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Wednesday",
+        "subject": "AUDIT",
+        "teacherId": 18
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Thursday",
+        "subject": "KINYA",
+        "teacherId": 23
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Friday",
+        "subject": "MAN ACC",
+        "teacherId": 18
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Monday",
+        "subject": "TAXATION",
+        "teacherId": 4
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Tuesday",
+        "subject": "AUDIT",
+        "teacherId": 18
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Wednesday",
+        "subject": "AUDIT",
+        "teacherId": 18
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Thursday",
+        "subject": "KINYA",
+        "teacherId": 23
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Friday",
+        "subject": "MAN ACC",
+        "teacherId": 18
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Monday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Tuesday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Thursday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Friday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Monday",
+        "subject": "MAN ACC",
+        "teacherId": 18
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Wednesday",
+        "subject": "ICT",
+        "teacherId": 33
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Thursday",
+        "subject": "EN.SHIP",
+        "teacherId": 18
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Friday",
+        "subject": "FA",
+        "teacherId": 33
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Monday",
+        "subject": "FRANCAIS( 28)"
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Tuesday",
+        "subject": "RELIGION",
+        "teacherId": 19
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Wednesday",
+        "subject": "ICT",
+        "teacherId": 33
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Thursday",
+        "subject": "EN.SHIP",
+        "teacherId": 18
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Friday",
+        "subject": "FA",
+        "teacherId": 33
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Monday",
+        "subject": "FRANCAIS( 28)"
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Tuesday",
+        "subject": "PHYSICAL ED",
+        "teacherId": 3
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Wednesday",
+        "subject": "ICT",
+        "teacherId": 33
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Thursday",
+        "subject": "EN.SHIP",
+        "teacherId": 18
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Friday",
+        "subject": "FA",
+        "teacherId": 33
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Monday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Tuesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Wednesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Thursday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Friday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Monday",
+        "subject": "GEN STUDIES",
+        "teacherId": 23
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Tuesday",
+        "subject": "PHYSICAL ED",
+        "teacherId": 3
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Wednesday",
+        "subject": "ENGLISH",
+        "teacherId": 7
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Thursday",
+        "subject": "ICT",
+        "teacherId": 33
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Friday",
+        "subject": "FA",
+        "teacherId": 33
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Monday",
+        "subject": "GEN STUDIES",
+        "teacherId": 23
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Thursday",
+        "subject": "ICT",
+        "teacherId": 33
+      }
+    ]
+  },
+  {
+    "file": "LYCEE TIME TABLE 5.xlsx",
+    "sheet": "L5FAD",
+    "classInfo": "",
+    "level": "",
+    "schedule": [
+      {
+        "time": "7:50'-8:10'",
+        "day": "Monday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Tuesday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Wednesday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Thursday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Friday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Tuesday",
+        "subject": "CCMPE",
+        "teacherId": 18
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Wednesday",
+        "subject": "FADEG",
+        "teacherId": 15
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Thursday",
+        "subject": "FADWW",
+        "teacherId": 9
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Friday",
+        "subject": "MATH",
+        "teacherId": 1
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Tuesday",
+        "subject": "CCMKK",
+        "teacherId": 3
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Wednesday",
+        "subject": "FADEG",
+        "teacherId": 15
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Thursday",
+        "subject": "FADWW",
+        "teacherId": 9
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Friday",
+        "subject": "MATH",
+        "teacherId": 1
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Tuesday",
+        "subject": "CCMKK",
+        "teacherId": 3
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Wednesday",
+        "subject": "FADEG",
+        "teacherId": 15
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Thursday",
+        "subject": "FADWW",
+        "teacherId": 9
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Friday",
+        "subject": "FADDI( 9   )"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Monday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Tuesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Wednesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Thursday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Friday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Monday",
+        "subject": "FADWW",
+        "teacherId": 9
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Tuesday",
+        "subject": "FADFA",
+        "teacherId": 15
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Wednesday",
+        "subject": "CCMKK",
+        "teacherId": 3
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Thursday",
+        "subject": "FADDP",
+        "teacherId": 16
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Friday",
+        "subject": "FADDI(  9  )"
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Monday",
+        "subject": "FADWW",
+        "teacherId": 9
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Tuesday",
+        "subject": "FADFA",
+        "teacherId": 15
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Wednesday",
+        "subject": "FRANCAIS",
+        "teacherId": 28
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Thursday",
+        "subject": "FADDP",
+        "teacherId": 16
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Friday",
+        "subject": "FADMS",
+        "teacherId": 16
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Monday",
+        "subject": "FADWW",
+        "teacherId": 9
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Tuesday",
+        "subject": "FADFA",
+        "teacherId": 15
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Wednesday",
+        "subject": "FRANCAIS",
+        "teacherId": 28
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Thursday",
+        "subject": "FADDP",
+        "teacherId": 16
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Friday",
+        "subject": "FADMS",
+        "teacherId": 16
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Monday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Tuesday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Wednesday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Thursday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Friday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Monday",
+        "subject": "RELIGION",
+        "teacherId": 19
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Tuesday",
+        "subject": "FADMW",
+        "teacherId": 16
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Wednesday",
+        "subject": "FADDP",
+        "teacherId": 16
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Thursday",
+        "subject": "CCMEN",
+        "teacherId": 7
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Friday",
+        "subject": "FADMS",
+        "teacherId": 16
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Monday",
+        "subject": "CCMKN",
+        "teacherId": 23
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Tuesday",
+        "subject": "FADMW",
+        "teacherId": 16
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Wednesday",
+        "subject": "FADDP",
+        "teacherId": 16
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Thursday",
+        "subject": "CCMEN",
+        "teacherId": 7
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Friday",
+        "subject": "FADMS",
+        "teacherId": 16
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Monday",
+        "subject": "CCMKN",
+        "teacherId": 23
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Tuesday",
+        "subject": "FADMW",
+        "teacherId": 16
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Wednesday",
+        "subject": "FADDP",
+        "teacherId": 16
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Thursday",
+        "subject": "FADIAP",
+        "teacherId": 16
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Friday",
+        "subject": "FADMS",
+        "teacherId": 16
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Monday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Tuesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Wednesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Thursday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Friday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Monday",
+        "subject": "FADFA",
+        "teacherId": 15
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Tuesday",
+        "subject": "CCMCZ",
+        "teacherId": 26
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Wednesday",
+        "subject": "MATH",
+        "teacherId": 1
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Thursday",
+        "subject": "CCMBO",
+        "teacherId": 19
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Friday",
+        "subject": "ICT",
+        "teacherId": 17
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Monday",
+        "subject": "FADFA",
+        "teacherId": 15
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Thursday",
+        "subject": "CCMBO"
+      }
+    ]
+  },
+  {
+    "file": "LYCEE TIME TABLE 5.xlsx",
+    "sheet": "L5CSA",
+    "classInfo": "",
+    "level": "",
+    "schedule": [
+      {
+        "time": "7:50'-8:10'",
+        "day": "Monday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Tuesday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Wednesday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Thursday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "7:50'-8:10'",
+        "day": "Friday",
+        "subject": "ASSEMBLY"
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Tuesday",
+        "subject": "CSAPS",
+        "teacherId": 20
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Wednesday",
+        "subject": "GENAM",
+        "teacherId": 1
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Thursday",
+        "subject": "CSAHK()"
+      },
+      {
+        "time": "8:10-8:50",
+        "day": "Friday",
+        "subject": "FRANCAIS",
+        "teacherId": 28
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Tuesday",
+        "subject": "CSAPS",
+        "teacherId": 20
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Wednesday",
+        "subject": "GENAM",
+        "teacherId": 1
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Thursday",
+        "subject": "CSAHK()"
+      },
+      {
+        "time": "8:50-9:30",
+        "day": "Friday",
+        "subject": "CCMIW",
+        "teacherId": 17
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Tuesday",
+        "subject": "CSAPS",
+        "teacherId": 20
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Wednesday",
+        "subject": "GENAM",
+        "teacherId": 1
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Thursday",
+        "subject": "GENAM",
+        "teacherId": 1
+      },
+      {
+        "time": "9:30-10:10",
+        "day": "Friday",
+        "subject": "CCMKK",
+        "teacherId": 3
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Monday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Tuesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Wednesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Thursday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:10-10:25",
+        "day": "Friday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Monday",
+        "subject": "CCMPE",
+        "teacherId": 25
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Tuesday",
+        "subject": "CCMBO",
+        "teacherId": 19
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Wednesday",
+        "subject": "CSACH",
+        "teacherId": 14
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Thursday",
+        "subject": "CSASA",
+        "teacherId": 25
+      },
+      {
+        "time": "10:25-11:05",
+        "day": "Friday",
+        "subject": "GENDS",
+        "teacherId": 13
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Monday",
+        "subject": "CSACH",
+        "teacherId": 14
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Tuesday",
+        "subject": "CCMBO",
+        "teacherId": 19
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Wednesday",
+        "subject": "CSACH",
+        "teacherId": 14
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Thursday",
+        "subject": "CSASA",
+        "teacherId": 25
+      },
+      {
+        "time": "11:05-11:45",
+        "day": "Friday",
+        "subject": "GENDS",
+        "teacherId": 13
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Monday",
+        "subject": "CSACH",
+        "teacherId": 14
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Tuesday",
+        "subject": "RELIGION",
+        "teacherId": 19
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Wednesday",
+        "subject": "CSACH",
+        "teacherId": 14
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Thursday",
+        "subject": "CSASA",
+        "teacherId": 25
+      },
+      {
+        "time": "11:45-12:25",
+        "day": "Friday",
+        "subject": "CCMEN",
+        "teacherId": 7
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Monday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Tuesday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Wednesday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Thursday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "12:25-13:30",
+        "day": "Friday",
+        "subject": "LUNCH"
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Monday",
+        "subject": "GENDS",
+        "teacherId": 13
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Tuesday",
+        "subject": "GENWS",
+        "teacherId": 24
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Wednesday",
+        "subject": "CSAPS",
+        "teacherId": 20
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Thursday",
+        "subject": "GENDW",
+        "teacherId": 21
+      },
+      {
+        "time": "13:30-14:10",
+        "day": "Friday",
+        "subject": "GENQA",
+        "teacherId": 14
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Monday",
+        "subject": "GENDS",
+        "teacherId": 13
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Tuesday",
+        "subject": "GENWS",
+        "teacherId": 24
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Wednesday",
+        "subject": "CCMKN",
+        "teacherId": 23
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Thursday",
+        "subject": "GENDW",
+        "teacherId": 21
+      },
+      {
+        "time": "14:10-14:50",
+        "day": "Friday",
+        "subject": "GENQA",
+        "teacherId": 14
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Monday",
+        "subject": "GENDS",
+        "teacherId": 13
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Tuesday",
+        "subject": "GENWS",
+        "teacherId": 24
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Wednesday",
+        "subject": "CCMKN",
+        "teacherId": 23
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Thursday",
+        "subject": "CCMCZP",
+        "teacherId": 26
+      },
+      {
+        "time": "14:50-15:30",
+        "day": "Friday",
+        "subject": "CCMEN",
+        "teacherId": 7
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Monday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Tuesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Wednesday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Thursday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:30-15:40",
+        "day": "Friday",
+        "subject": "BREAK"
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Monday",
+        "subject": "CSAPS",
+        "teacherId": 20
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Tuesday",
+        "subject": "CSAIAP",
+        "teacherId": 25
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Wednesday",
+        "subject": "CCMKK",
+        "teacherId": 3
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Thursday",
+        "subject": "GENCC",
+        "teacherId": 8
+      },
+      {
+        "time": "15:40-16:20",
+        "day": "Friday",
+        "subject": "CSASA",
+        "teacherId": 25
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Monday",
+        "subject": "CSAPS",
+        "teacherId": 20
+      },
+      {
+        "time": "16:20-17:00",
+        "day": "Thursday",
+        "subject": "GENCC",
+        "teacherId": 8
+      }
+    ]
+  }
+]

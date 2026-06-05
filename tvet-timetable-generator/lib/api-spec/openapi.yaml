@@ -1,0 +1,681 @@
+openapi: 3.1.0
+info:
+  title: Api
+  version: 0.1.0
+  description: TVET Timetable Generator API
+servers:
+  - url: /api
+    description: Base API path
+tags:
+  - name: health
+    description: Health operations
+  - name: classes
+    description: Class management
+  - name: modules
+    description: Module management
+  - name: teachers
+    description: Teacher management
+  - name: timetables
+    description: Timetable generation and retrieval
+  - name: upload
+    description: File upload operations
+  - name: stats
+    description: Dashboard statistics
+
+paths:
+  /healthz:
+    get:
+      operationId: healthCheck
+      tags: [health]
+      summary: Health check
+      responses:
+        "200":
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+
+  # ─── Classes ────────────────────────────────────────────────
+  /admin/classes:
+    get:
+      operationId: listClasses
+      tags: [classes]
+      summary: List all classes
+      responses:
+        "200":
+          description: List of classes
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Class"
+    post:
+      operationId: createClass
+      tags: [classes]
+      summary: Create a class
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ClassInput"
+      responses:
+        "201":
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Class"
+        "400":
+          description: Bad request
+
+  /admin/classes/{id}:
+    put:
+      operationId: updateClass
+      tags: [classes]
+      summary: Update a class
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ClassInput"
+      responses:
+        "200":
+          description: Updated
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Class"
+        "404":
+          description: Not found
+    delete:
+      operationId: deleteClass
+      tags: [classes]
+      summary: Delete a class
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: Deleted
+        "404":
+          description: Not found
+
+  # ─── Modules ────────────────────────────────────────────────
+  /admin/modules:
+    get:
+      operationId: listModules
+      tags: [modules]
+      summary: List all modules
+      responses:
+        "200":
+          description: List of modules
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Module"
+    post:
+      operationId: createModule
+      tags: [modules]
+      summary: Create a module
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ModuleInput"
+      responses:
+        "201":
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Module"
+        "400":
+          description: Bad request
+
+  /admin/modules/{id}:
+    put:
+      operationId: updateModule
+      tags: [modules]
+      summary: Update a module
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ModuleInput"
+      responses:
+        "200":
+          description: Updated
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Module"
+        "404":
+          description: Not found
+    delete:
+      operationId: deleteModule
+      tags: [modules]
+      summary: Delete a module
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: Deleted
+        "404":
+          description: Not found
+
+  # ─── Teachers ───────────────────────────────────────────────
+  /admin/teachers:
+    get:
+      operationId: listTeachers
+      tags: [teachers]
+      summary: List all teachers
+      responses:
+        "200":
+          description: List of teachers
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Teacher"
+    post:
+      operationId: createTeacher
+      tags: [teachers]
+      summary: Create a teacher
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/TeacherInput"
+      responses:
+        "201":
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Teacher"
+        "400":
+          description: Bad request
+
+  /admin/teachers/{id}:
+    put:
+      operationId: updateTeacher
+      tags: [teachers]
+      summary: Update a teacher
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/TeacherInput"
+      responses:
+        "200":
+          description: Updated
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Teacher"
+        "404":
+          description: Not found
+    delete:
+      operationId: deleteTeacher
+      tags: [teachers]
+      summary: Delete a teacher
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: Deleted
+        "404":
+          description: Not found
+
+  # ─── Upload ─────────────────────────────────────────────────
+  /admin/upload/chronogram:
+    post:
+      operationId: uploadChronogram
+      tags: [upload]
+      summary: Upload chronogram file (CSV/JSON) to import modules
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              $ref: "#/components/schemas/FileUpload"
+      responses:
+        "200":
+          description: Imported successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/UploadResult"
+        "400":
+          description: Invalid file
+      x-codegen-request-body-name: uploadChronogramRequest
+
+  /admin/upload/teachers:
+    post:
+      operationId: uploadTeachers
+      tags: [upload]
+      summary: Upload teachers file (CSV/JSON)
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              $ref: "#/components/schemas/FileUpload"
+      responses:
+        "200":
+          description: Imported successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/UploadResult"
+        "400":
+          description: Invalid file
+      x-codegen-request-body-name: uploadTeachersRequest
+
+  # ─── Generation ─────────────────────────────────────────────
+  /admin/generate:
+    post:
+      operationId: generateTimetables
+      tags: [timetables]
+      summary: Generate timetables for all classes
+      responses:
+        "200":
+          description: Generation result
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GenerationResult"
+        "500":
+          description: Generation failed
+
+  /admin/timetables:
+    delete:
+      operationId: deleteAllTimetables
+      tags: [timetables]
+      summary: Delete all generated timetable entries
+      responses:
+        "204":
+          description: Deleted
+
+  /admin/timetables/{classId}:
+    delete:
+      operationId: deleteClassTimetable
+      tags: [timetables]
+      summary: Delete timetable for a specific class
+      parameters:
+        - name: classId
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: Deleted
+        "404":
+          description: Not found
+
+  # ─── Logs ───────────────────────────────────────────────────
+  /admin/logs:
+    get:
+      operationId: listLogs
+      tags: [stats]
+      summary: List generation logs
+      responses:
+        "200":
+          description: List of logs
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/GenerationLog"
+
+  # ─── Stats (wow) ─────────────────────────────────────────────
+  /admin/stats:
+    get:
+      operationId: getStats
+      tags: [stats]
+      summary: Dashboard statistics
+      responses:
+        "200":
+          description: Stats
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DashboardStats"
+
+  # ─── Client Timetable ────────────────────────────────────────
+  /timetable/class/{classId}:
+    get:
+      operationId: getClassTimetable
+      tags: [timetables]
+      summary: Get timetable matrix for a class
+      parameters:
+        - name: classId
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Timetable grid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TimetableGrid"
+        "404":
+          description: Not found
+
+  /timetable/teacher/{teacherId}:
+    get:
+      operationId: getTeacherTimetable
+      tags: [timetables]
+      summary: Get timetable matrix for a teacher
+      parameters:
+        - name: teacherId
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Timetable grid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TeacherTimetableGrid"
+        "404":
+          description: Not found
+
+components:
+  schemas:
+    HealthStatus:
+      type: object
+      required: [status]
+      properties:
+        status:
+          type: string
+
+    Class:
+      type: object
+      required: [id, name, trade, level]
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        trade:
+          type: string
+        level:
+          type: integer
+
+    ClassInput:
+      type: object
+      required: [name, trade, level]
+      properties:
+        name:
+          type: string
+          minLength: 1
+        trade:
+          type: string
+          minLength: 1
+        level:
+          type: integer
+
+    Module:
+      type: object
+      required: [id, code, name, weeklyPeriods, isSpecific, trade]
+      properties:
+        id:
+          type: integer
+        code:
+          type: string
+        name:
+          type: string
+        weeklyPeriods:
+          type: integer
+        isSpecific:
+          type: boolean
+        trade:
+          type: string
+        teacherId:
+          type: ["integer", "null"]
+        teacherName:
+          type: ["string", "null"]
+        teacherCode:
+          type: ["string", "null"]
+
+    ModuleInput:
+      type: object
+      required: [code, name, weeklyPeriods, isSpecific, trade]
+      properties:
+        code:
+          type: string
+          minLength: 1
+        name:
+          type: string
+          minLength: 1
+        weeklyPeriods:
+          type: integer
+          minimum: 1
+        isSpecific:
+          type: boolean
+        trade:
+          type: string
+          minLength: 1
+
+    Teacher:
+      type: object
+      required: [id, name, code, moduleCodes]
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        code:
+          type: string
+        moduleCodes:
+          type: array
+          items:
+            type: string
+
+    TeacherInput:
+      type: object
+      required: [name, code, moduleCodes]
+      properties:
+        name:
+          type: string
+          minLength: 1
+        code:
+          type: string
+          minLength: 1
+        moduleCodes:
+          type: array
+          items:
+            type: string
+
+    FileUpload:
+      type: object
+      properties:
+        filename:
+          type: string
+
+    UploadResult:
+      type: object
+      required: [imported, skipped, errors]
+      properties:
+        imported:
+          type: integer
+        skipped:
+          type: integer
+        errors:
+          type: array
+          items:
+            type: string
+        message:
+          type: string
+
+    GenerationResult:
+      type: object
+      required: [success, classesProcessed, entriesCreated]
+      properties:
+        success:
+          type: boolean
+        classesProcessed:
+          type: integer
+        entriesCreated:
+          type: integer
+        errors:
+          type: array
+          items:
+            type: string
+        message:
+          type: string
+
+    GenerationLog:
+      type: object
+      required: [id, createdAt, success, classesProcessed, entriesCreated]
+      properties:
+        id:
+          type: integer
+        createdAt:
+          type: string
+          format: date-time
+        success:
+          type: boolean
+        classesProcessed:
+          type: integer
+        entriesCreated:
+          type: integer
+        errors:
+          type: array
+          items:
+            type: string
+        message:
+          type: ["string", "null"]
+
+    DashboardStats:
+      type: object
+      required: [totalClasses, totalModules, totalTeachers, totalEntries, classesWithTimetables, classesWithoutTimetables]
+      properties:
+        totalClasses:
+          type: integer
+        totalModules:
+          type: integer
+        totalTeachers:
+          type: integer
+        totalEntries:
+          type: integer
+        classesWithTimetables:
+          type: integer
+        classesWithoutTimetables:
+          type: integer
+        lastGeneratedAt:
+          type: ["string", "null"]
+
+    TimetableCell:
+      type: object
+      required: [period, day, type]
+      properties:
+        period:
+          type: integer
+        day:
+          type: integer
+        type:
+          type: string
+          enum: [module, cocurricular, free]
+        moduleName:
+          type: ["string", "null"]
+        moduleCode:
+          type: ["string", "null"]
+        teacherCode:
+          type: ["string", "null"]
+        teacherName:
+          type: ["string", "null"]
+        blockLabel:
+          type: ["string", "null"]
+
+    TimetableGrid:
+      type: object
+      required: [classId, className, cells]
+      properties:
+        classId:
+          type: integer
+        className:
+          type: string
+        trade:
+          type: string
+        cells:
+          type: array
+          items:
+            $ref: "#/components/schemas/TimetableCell"
+
+    TeacherTimetableCell:
+      type: object
+      required: [period, day]
+      properties:
+        period:
+          type: integer
+        day:
+          type: integer
+        className:
+          type: ["string", "null"]
+        moduleName:
+          type: ["string", "null"]
+        moduleCode:
+          type: ["string", "null"]
+
+    TeacherTimetableGrid:
+      type: object
+      required: [teacherId, teacherName, teacherCode, cells]
+      properties:
+        teacherId:
+          type: integer
+        teacherName:
+          type: string
+        teacherCode:
+          type: string
+        cells:
+          type: array
+          items:
+            $ref: "#/components/schemas/TeacherTimetableCell"

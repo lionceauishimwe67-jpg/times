@@ -1,0 +1,340 @@
+@import '../../styles/professional.css';
+
+.timetable-manager {
+  padding: 0;
+  max-width: 100%;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.timetable-manager-header {
+  margin-bottom: 30px;
+  padding: 25px;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.03) 100%);
+  border-radius: 16px;
+  border: 2px solid rgba(102, 126, 234, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timetable-manager-header h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #667eea 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.timetable-manager-header .status {
+  margin: 0;
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+.timetable-manager-content {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.timetable-list {
+  flex: 1;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 2px solid rgba(102, 126, 234, 0.2);
+}
+
+.list-header h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #667eea;
+}
+
+.list-header button {
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.list-header button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.timetable-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.timetable-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(245, 245, 245, 0.9) 100%);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 2px solid rgba(102, 126, 234, 0.2);
+  padding: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08),
+              0 0 60px rgba(102, 126, 234, 0.1);
+  transition: all 0.3s ease;
+}
+
+.timetable-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12),
+              0 0 80px rgba(102, 126, 234, 0.15);
+}
+
+.timetable-info h4 {
+  margin: 0 0 12px 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #667eea;
+}
+
+.timetable-info p {
+  margin: 6px 0;
+  color: #4b5563;
+  font-size: 0.9rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.badge-success {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+}
+
+.badge-warning {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: white;
+}
+
+.timetable-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(102, 126, 234, 0.1);
+}
+
+.timetable-actions button {
+  flex: 1;
+  padding: 8px 16px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.timetable-actions button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.timetable-actions button.delete {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+}
+
+.timetable-actions button.delete:hover {
+  box-shadow: 0 4px 15px rgba(239, 68, 68, 0.3);
+}
+
+.timetable-form {
+  width: 400px;
+  background: linear-gradient(145deg, #f8fafc 0%, #f1f5f9 50%, #e2e8f0 100%);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 2px solid rgba(102, 126, 234, 0.15);
+  padding: 30px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1),
+              0 0 80px rgba(102, 126, 234, 0.08),
+              inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  position: sticky;
+  top: 20px;
+}
+
+.timetable-form h3 {
+  margin: 0 0 25px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #667eea 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgba(102, 126, 234, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #374151;
+  font-size: 0.95rem;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.form-group input[type="text"],
+.form-group input[type="time"],
+.form-group input[type="date"] {
+  width: 100%;
+  padding: 14px 16px;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  background: white;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="time"]:focus,
+.form-group input[type="date"]:focus {
+  outline: none;
+  border-color: #667eea;
+  background: white;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15),
+              inset 0 2px 4px rgba(0, 0, 0, 0.02);
+  transform: translateY(-1px);
+}
+
+.form-group input[type="text"]:hover,
+.form-group input[type="time"]:hover,
+.form-group input[type="date"]:hover {
+  border-color: #667eea;
+  background: white;
+}
+
+.form-group input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.form-group label input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  margin-right: 8px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 2px solid rgba(102, 126, 234, 0.1);
+}
+
+.form-actions button {
+  flex: 1;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.form-actions button[type="submit"] {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #667eea 100%);
+  color: white;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3),
+              0 2px 8px rgba(102, 126, 234, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.form-actions button[type="submit"]:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4),
+              0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.form-actions button[type="submit"]:active {
+  transform: translateY(-1px) scale(0.98);
+}
+
+.form-actions button[type="submit"]:disabled {
+  background: linear-gradient(135deg, #bdbdbd 0%, #9e9e9e 100%);
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.form-actions button.cancel {
+  background: linear-gradient(135deg, #757575 0%, #616161 100%);
+  color: white;
+  box-shadow: 0 4px 15px rgba(117, 117, 117, 0.3);
+}
+
+.form-actions button.cancel:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(117, 117, 117, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .timetable-manager-content {
+    flex-direction: column;
+  }
+
+  .timetable-form {
+    width: 100%;
+    position: static;
+  }
+}
+
+@media (max-width: 768px) {
+  .timetable-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .list-header {
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .list-header select,
+  .list-header button {
+    width: 100%;
+  }
+}

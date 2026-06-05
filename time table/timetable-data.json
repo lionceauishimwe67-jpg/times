@@ -1,0 +1,147 @@
+[
+  [],
+  [
+    "LYCEE SAINT ALEXANDRE SAULI DE MUHURA.",
+    null,
+    null,
+    "2024-2025",
+    "SCHOOL TIMETABLE"
+  ],
+  [
+    null,
+    "LEVEL V NETWORKING AND INTERNET TECHNOLOGIES",
+    null,
+    null,
+    null,
+    "TERM II"
+  ],
+  [
+    "Time / period",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+  ],
+  [
+    "7:50'-8:10'",
+    "ASSEMBLY",
+    "ASSEMBLY",
+    "ASSEMBLY",
+    "ASSEMBLY",
+    "ASSEMBLY"
+  ],
+  [
+    "8:10-8:50",
+    "TEST",
+    "CCMBO (19)",
+    "NITLS(24)",
+    "NITCS(13)",
+    "GENPP(8)"
+  ],
+  [
+    "8:50-9:30",
+    "TEST",
+    "CCMBO (19)",
+    "NITLS(24)",
+    "NITCS(13)",
+    "GENPP(8)"
+  ],
+  [
+    "9:30-10:10",
+    "TEST",
+    " CCMIW(17)",
+    "GENDW(21)",
+    "NITCS(13)",
+    "CCMCZP(26)"
+  ],
+  [
+    "10:10-10:25",
+    "BREAK",
+    "BREAK",
+    "BREAK",
+    "BREAK",
+    "BREAK"
+  ],
+  [
+    "10:25-11:05",
+    "GENPP(8)",
+    "NITCS(13)",
+    "GENDW(21)",
+    "NITML(11)",
+    "NITZC(22)"
+  ],
+  [
+    "11:05-11:45",
+    "GENPP(8)",
+    "NITCS(13)",
+    "MATH(1)",
+    "NITML(11)",
+    "NITZC(22)"
+  ],
+  [
+    "11:45-12:25",
+    "GENPP(8)",
+    "NITCS(13)",
+    "CCMKK(3)",
+    "NITCC()",
+    "NITZC(22)"
+  ],
+  [
+    "12:25-13:30",
+    "LUNCH",
+    "LUNCH",
+    "LUNCH",
+    "LUNCH",
+    "LUNCH"
+  ],
+  [
+    "13:30-14:10",
+    "NITML(11)",
+    "CCMPE(11)",
+    "CCMKK(3)",
+    "NITLS(24)",
+    "NITLS(24)"
+  ],
+  [
+    "14:10-14:50",
+    "NITML(11)",
+    "FRANCAIS (28)",
+    "MATH(1)",
+    "NITLS(24)",
+    "NITCC()"
+  ],
+  [
+    "14:50-15:30",
+    "NITML(11)",
+    "FRANCAIS (28)",
+    "MATH(1)",
+    "NITLS(24)",
+    "RELIGION"
+  ],
+  [
+    "15:30-15:40",
+    "BREAK",
+    "BREAK",
+    "BREAK",
+    "BREAK",
+    "BREAK"
+  ],
+  [
+    "15:40-16:20",
+    "CCMEN (7)",
+    "MATH(1)",
+    "NITIAP(11)",
+    "CCMKN (23)",
+    "NITCC()"
+  ],
+  [
+    "16:20-17:00",
+    "CCMEN (7)",
+    "DEBATE",
+    "CPD",
+    "CCMKN (23)",
+    "SPORT"
+  ],
+  []
+]

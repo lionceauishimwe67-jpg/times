@@ -1,0 +1,213 @@
+.face-attendance {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background: linear-gradient(135deg, #e8f4fc 0%, #f0f7ff 50%, #f8fbff 100%);
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+.face-attendance-header {
+  margin-bottom: 24px;
+  padding: 20px;
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.12) 0%, rgba(0, 180, 216, 0.06) 100%);
+  border-radius: 16px;
+  border: 1px solid rgba(0, 212, 255, 0.25);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.face-attendance-header h2 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #00d4ff 0%, #00ffcc 50%, #00d4ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0 0 12px 0;
+}
+
+.status {
+  font-size: 1rem;
+  color: black;
+  font-weight: 500;
+}
+
+.face-attendance-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+}
+
+.video-container {
+  position: relative;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  border: 2px solid rgba(0, 212, 255, 0.3);
+  overflow: hidden;
+  aspect-ratio: 4/3;
+}
+
+.video-feed {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.face-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.face-attendance-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.face-attendance-controls button {
+  padding: 16px 24px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.face-attendance-controls button.start {
+  background: linear-gradient(135deg, #00d4ff 0%, #00ffcc 100%);
+  color: #0a1628;
+}
+
+.face-attendance-controls button.start:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 212, 255, 0.4);
+}
+
+.face-attendance-controls button.stop {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a5a 100%);
+  color: black;
+}
+
+.face-attendance-controls button.stop:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
+}
+
+.face-attendance-controls button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.match-result {
+  padding: 20px;
+  background: linear-gradient(135deg, rgba(0, 255, 204, 0.15) 0%, rgba(0, 212, 255, 0.08) 100%);
+  border-radius: 12px;
+  border: 2px solid rgba(0, 255, 204, 0.4);
+  box-shadow: 0 4px 20px rgba(0, 255, 204, 0.3);
+}
+
+.match-result h3 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #00ffcc;
+  margin: 0 0 16px 0;
+}
+
+.match-details {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.match-details img {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  border: 2px solid rgba(0, 255, 204, 0.4);
+  object-fit: cover;
+}
+
+.match-details p {
+  margin: 4px 0;
+  color: black;
+}
+
+.registered-faces {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  border: 1px solid rgba(0, 212, 255, 0.15);
+}
+
+.registered-faces h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #00d4ff;
+  margin: 0 0 16px 0;
+}
+
+.faces-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 12px;
+}
+
+.face-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.face-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 212, 255, 0.3);
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.face-card img:hover {
+  border-color: #00ffcc;
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 255, 204, 0.3);
+}
+
+.face-card p {
+  font-size: 0.8rem;
+  color: black;
+  text-align: center;
+  word-break: break-word;
+}
+
+@media (max-width: 1024px) {
+  .face-attendance-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .face-attendance {
+    padding: 16px;
+  }
+
+  .face-attendance-header h2 {
+    font-size: 1.4rem;
+  }
+
+  .faces-grid {
+    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  }
+
+  .face-card img {
+    width: 60px;
+    height: 60px;
+  }
+}

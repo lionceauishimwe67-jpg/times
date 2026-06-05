@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@types/csv-parse": "^1.1.12",
+    "@types/pdf-parse": "^1.1.5",
+    "@types/pdfmake": "^0.3.2",
+    "compression": "^1.8.1",
+    "csv-parse": "^6.2.1",
+    "dotenv": "^17.4.2",
+    "helmet": "^8.1.0",
+    "mammoth": "^1.12.0",
+    "pdf-parse": "^2.4.5",
+    "pdfmake": "^0.3.8",
+    "tesseract.js": "^7.0.0",
+    "typescript": "^4.9.5"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+  "classes": [
+    {
+      "id": 1,
+      "name": "S1A",
+      "level": "Senior 1",
+      "students": 42
+    },
+    {
+      "id": 2,
+      "name": "S1B",
+      "level": "Senior 1",
+      "students": 40
+    },
+    {
+      "id": 3,
+      "name": "S2A",
+      "level": "Senior 2",
+      "students": 38
+    },
+    {
+      "id": 4,
+      "name": "S2B",
+      "level": "Senior 2",
+      "students": 41
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Mathematics",
+      "teacher": "Jean Claude",
+      "hours_per_week": 5,
+      "availability": "Morning"
+    },
+    {
+      "name": "English",
+      "teacher": "Alice Uwase",
+      "hours_per_week": 4,
+      "availability": "Afternoon"
+    },
+    {
+      "name": "Physics",
+      "teacher": "Eric Mugisha",
+      "hours_per_week": 3,
+      "availability": "Morning"
+    },
+    {
+      "name": "Chemistry",
+      "teacher": "Mary Keza",
+      "hours_per_week": 3,
+      "availability": "Full Day"
+    },
+    {
+      "name": "Biology",
+      "teacher": "Patrick Niyomugabo",
+      "hours_per_week": 2,
+      "availability": "Morning"
+    },
+    {
+      "name": "History",
+      "teacher": "Grace Ishimwe",
+      "hours_per_week": 2,
+      "availability": "Afternoon"
+    }
+  ],
+  "rules": [
+    "A teacher cannot teach two classes at the same time",
+    "Subject hours must match weekly requirements",
+    "Avoid repeating the same subject many times in one day",
+    "Teachers must follow availability constraints",
+    "Every class must have a balanced schedule"
+  ],
+  "time_slots": [
+    "08:00-09:00",
+    "09:00-10:00",
+    "10:30-11:30",
+    "11:30-12:30",
+    "13:30-14:30",
+    "14:30-15:30"
+  ],
+  "classId": 1
+}
