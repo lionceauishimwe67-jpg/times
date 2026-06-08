@@ -1,36 +1,11 @@
 #include <WiFi.h>
-#include <HTTPClient.h>
 #include <EEPROM.h>
 #include <Keypad.h>
-#include <Wire.h>
 #include <LiquidCrystal_I2C.h>
-#include <ArduinoJson.h>
 #include <time.h>
 
-const char* ssid = "123456";
-const char* password = "muhura@123";
-const char* backendUrl = "http://192.168.0.230:5000"; // Change this to your backend IP/port
-const char* scheduleEndpoint = "/api/hardware/schedule";
-const char* ringCommandEndpoint = "/api/hardware/ring-command";
-const char* legacyRingCommandEndpoint = "/api/bell/ring-now";
-const char* heartbeatEndpoint = "/api/hardware/heartbeat";
-const char* deviceId = "mhbell-esp32";
-const unsigned long SCHEDULE_REFRESH_INTERVAL_MS = 12UL * 60UL * 60UL * 1000UL;
-const unsigned long MANUAL_RING_POLL_INTERVAL_MS = 500;
-const unsigned long HEARTBEAT_INTERVAL_MS = 30000;
-unsigned long lastScheduleFetch = 0;
-unsigned long lastManualRingPoll = 0;
-unsigned long lastHeartbeat = 0;
-bool backendScheduleLoaded = false;
-bool dashboardScheduleSynced = false;
-String backendBellTimes[64];
-String backendBellLabels[64];
-int backendBellDurations[64];
-int backendBellCount = 0;
-String currentDateString = "";
-String lastCommandId = "";
-String lastRingStamp = "";
-int pendingBellDurationSeconds = 15;
+const char* ssid = "kazungu";
+const char* password = "kazungu@29";
 
 const char* ntpServer = "pool.ntp.org";
 const long gmtOffset_sec = 2 * 3600;
@@ -39,7 +14,7 @@ const int daylightOffset_sec = 0;
 int seconds = 0;
 int hours = 0;
 int month = 0;
-int minute = 0;
+int minute = 0;                                                                                                                                                                                                                                                      
 int date = 0;
 int year = 0;
 int dayOfTheWeek = 0;
@@ -54,7 +29,7 @@ char KEY[4][4] = {
   { '1', '2', '3', 'A' },
   { '4', '5', '6', 'B' },
   { '7', '8', '9', 'C' },
-  { '*', '0', '#', 'D' }
+                                                                       { '*', '0', '#', 'D' }
 };
 
 Keypad keys(makeKeymap(KEY), rowPins, colPins, rows, cols);
@@ -64,8 +39,8 @@ byte currentMode = 0;
 byte periodStep = 0;
 byte vacancyStep = 0;
 
-byte periodHours[25] = { 7, 8, 8, 9, 10, 10, 11, 11, 12, 13, 14, 14, 15, 15, 16 };
-byte periodMin[25] = { 50, 10, 50, 30, 10, 25, 5, 55, 25, 30, 10, 50, 30, 40, 20 };
+byte periodHours[25] = {5,6,7, 7, 8, 8, 9, 10, 10, 11, 11, 12, 13, 14, 14, 15, 15, 16,17,18 ,20};
+byte periodMin[25] = { 0,55,0,50, 10, 50, 30, 10, 25, 5, 55, 25, 30, 10, 50, 30, 40, 20,0,30 ,30};
 
 byte publicHolidayMonth[19] = { 1, 1, 2, 2, 3, 4, 4, 4, 5, 5, 7, 7, 7, 8, 8, 8, 12, 12, 12 };
 byte publicHolidayDate[19] = { 1, 2, 1, 2, 20, 3, 6, 7, 1, 27, 1, 4, 6, 7, 15, 17, 25, 26, 28 };
@@ -97,212 +72,7 @@ int wifiReconnectCount = 0;
 
 String today[7] = { "SUN", "MON", "TUE", "WED", "THUR", "FRI", "SAT" };
 
-String getCurrentDateString() {
-  char buffer[11];
-  sprintf(buffer, "%04d-%02d-%02d", year, month, date);
-  return String(buffer);
-}
-
-String formatCurrentTime() {
-  char buffer[9];
-  sprintf(buffer, "%02d:%02d:%02d", hours, minute, seconds);
-  return String(buffer);
-}
-
-String normalizeBackendTime(String timeString) {
-  timeString.trim();
-  if (timeString.length() == 5) {
-    return timeString + ":00";
-  }
-  if (timeString.length() >= 8) {
-    return timeString.substring(0, 8);
-  }
-  return timeString;
-}
-
-bool fetchBellSchedule() {
-  if (WiFi.status() != WL_CONNECTED) {
-    return false;
-  }
-
-  HTTPClient http;
-  String url = String(backendUrl) + String(scheduleEndpoint) + "?date=" + currentDateString;
-  http.begin(url);
-  int httpCode = http.GET();
-
-  if (httpCode != HTTP_CODE_OK) {
-    http.end();
-    dashboardScheduleSynced = false;
-    backendScheduleLoaded = false;
-    return false;
-  }
-
-  String payload = http.getString();
-  http.end();
-
-  StaticJsonDocument<4096> doc;
-  DeserializationError error = deserializeJson(doc, payload);
-  if (error) {
-    Serial.print("JSON parse failed: ");
-    Serial.println(error.c_str());
-    dashboardScheduleSynced = false;
-    backendScheduleLoaded = false;
-    return false;
-  }
-
-  if (!doc["success"] || !doc["data"].is<JsonArray>()) {
-    dashboardScheduleSynced = false;
-    backendScheduleLoaded = false;
-    return false;
-  }
-
-  JsonArray array = doc["data"].as<JsonArray>();
-  backendBellCount = 0;
-
-  for (JsonObject item : array) {
-    if (backendBellCount >= 64) {
-      break;
-    }
-
-    const char* timeValue = item["time"];
-    if (!timeValue) {
-      continue;
-    }
-
-    String timeString = normalizeBackendTime(String(timeValue));
-    if (timeString.length() == 8) {
-      backendBellTimes[backendBellCount] = timeString;
-      backendBellLabels[backendBellCount] = item["label"] | "Dashboard Bell";
-      backendBellDurations[backendBellCount] = item["duration_seconds"] | 15;
-      backendBellCount++;
-    }
-  }
-
-  dashboardScheduleSynced = true;
-  backendScheduleLoaded = backendBellCount > 0;
-  lastScheduleFetch = millis();
-
-  Serial.print("Backend schedule fetched: ");
-  Serial.println(backendBellCount);
-
-  return true;
-}
-
-bool shouldRefreshSchedule() {
-  String todayStr = getCurrentDateString();
-  if (todayStr != currentDateString) {
-    currentDateString = todayStr;
-    return true;
-  }
-
-  if (millis() - lastScheduleFetch > SCHEDULE_REFRESH_INTERVAL_MS) {
-    return true;
-  }
-
-  return false;
-}
-
-void sendHeartbeat() {
-  if (WiFi.status() != WL_CONNECTED) {
-    return;
-  }
-
-  HTTPClient http;
-  String url = String(backendUrl) + String(heartbeatEndpoint);
-  http.begin(url);
-  http.addHeader("Content-Type", "application/json");
-  String payload = "{\"device_id\":\"" + String(deviceId) + "\"}";
-  int httpCode = http.POST(payload);
-  Serial.print("Heartbeat status: ");
-  Serial.println(httpCode);
-  http.end();
-  lastHeartbeat = millis();
-}
-
-bool pollHardwareRingCommandAt(const char* endpoint, String& reason) {
-  if (WiFi.status() != WL_CONNECTED) {
-    return false;
-  }
-
-  HTTPClient http;
-  String url = String(backendUrl) + String(endpoint);
-  http.begin(url);
-  int httpCode = http.GET();
-
-  if (httpCode != HTTP_CODE_OK) {
-    http.end();
-    return false;
-  }
-
-  String payload = http.getString();
-  http.end();
-
-  StaticJsonDocument<1024> doc;
-  DeserializationError error = deserializeJson(doc, payload);
-  if (error) {
-    Serial.print("Manual ring JSON parse failed: ");
-    Serial.println(error.c_str());
-    return false;
-  }
-
-  if (doc["ring"] != true) {
-    return false;
-  }
-
-  if (doc["command"].is<JsonObject>()) {
-    JsonObject command = doc["command"].as<JsonObject>();
-    const char* commandId = command["id"];
-    if (commandId && lastCommandId == String(commandId)) {
-      return false;
-    }
-    if (commandId) {
-      lastCommandId = String(commandId);
-    }
-
-    const char* commandReason = command["reason"];
-    reason = commandReason ? String(commandReason) : "Hardware Ring";
-    pendingBellDurationSeconds = command["duration_seconds"] | 15;
-    if (pendingBellDurationSeconds < 1) pendingBellDurationSeconds = 1;
-    if (pendingBellDurationSeconds > 60) pendingBellDurationSeconds = 60;
-    return true;
-  }
-
-  reason = "Manual Ring";
-  pendingBellDurationSeconds = 15;
-  return true;
-}
-
-bool pollHardwareRingCommand(String& reason) {
-  if (pollHardwareRingCommandAt(ringCommandEndpoint, reason)) {
-    return true;
-  }
-
-  return pollHardwareRingCommandAt(legacyRingCommandEndpoint, reason);
-}
-
-void printBoth(String l1, String l2);
-
-bool markRingIfNew() {
-  String stamp = getCurrentDateString() + " " + formatCurrentTime();
-  if (lastRingStamp == stamp) {
-    return false;
-  }
-
-  lastRingStamp = stamp;
-  return true;
-}
-
-void ringBell(const String& text = "Scheduled Bell") {
-  printBoth("*** BELL RING ***", text);
-  digitalWrite(bellPin, LOW);  // Activate active-low relay
-  delay((unsigned long)pendingBellDurationSeconds * 1000UL);
-  digitalWrite(bellPin, HIGH); // Deactivate active-low relay
-  lcd.clear();
-  pendingBellDurationSeconds = 15;
-}
-
 void printBoth(String l1, String l2 = "") {
-
   lcd.clear();
   lcd.setCursor(0, 0);
   lcd.print(l1.substring(0, 16));
@@ -312,7 +82,7 @@ void printBoth(String l1, String l2 = "") {
 }
 
 void loadEEPROM() {
-  byte flag = EEPROM.read(ADDR_FLAG); 
+  byte flag = EEPROM.read(ADDR_FLAG);
   if (flag == 55) {
     EEPROM.get(ADDR_PERIOD_HOUR, periodHours);
     EEPROM.get(ADDR_PERIOD_MIN, periodMin);
@@ -499,33 +269,19 @@ void checkTerm() {
 void checkBell() {
   EEPROM.get(ADDR_VAC_MONTH, vacancyMonthPeriod);
   EEPROM.get(ADDR_VAC_DATE, vacancyDatePeriod);
-  String nowTime = formatCurrentTime();
-
-  if (dashboardScheduleSynced) {
-    for (int i = 0; i < backendBellCount; i++) {
-      if (backendBellTimes[i] == nowTime && seconds == 0) {
-        if (markRingIfNew()) {
-          pendingBellDurationSeconds = backendBellDurations[i];
-          if (pendingBellDurationSeconds < 1) pendingBellDurationSeconds = 1;
-          if (pendingBellDurationSeconds > 60) pendingBellDurationSeconds = 60;
-          ringBell(backendBellLabels[i]);
-        }
-        break;
-      }
-    }
-    return;
-  }
-
+  
   if (dayOfTheWeek == 0 || dayOfTheWeek == 6) {
     for (int i = 0; i < 2; i++) {
       if (hours == weekEndHours[i] && minute == weekEndMin[i] && seconds == 0) {
-        if (markRingIfNew()) {
-          ringBell("Weekend Bell");
-        }
+        printBoth("*** BELL RING ***", "  Period " + String(i + 1));
+        digitalWrite(bellPin, LOW);  // FIXED: LOW activates relay
+        delay(15000);
+        digitalWrite(bellPin, HIGH); // FIXED: HIGH deactivates relay
+        lcd.clear();
         break;
       }
     }
-  } else {
+  } else if (dayOfTheWeek != 0 && dayOfTheWeek != 6) {
     for (int i = 0; i < 19; i++) {
       if (month == publicHolidayMonth[i] && date == publicHolidayDate[i]) {
         return;
@@ -534,9 +290,11 @@ void checkBell() {
     if (termActive == true) {
       for (int i = 0; i < 25; i++) {
         if (hours == periodHours[i] && minute == periodMin[i] && seconds == 0) {
-          if (markRingIfNew()) {
-            ringBell("Default Bell");
-          }
+          printBoth("*** BELL RING ***", "  Period " + String(i + 1));
+          digitalWrite(bellPin, LOW);  // FIXED: LOW activates relay
+          delay(15000);
+          digitalWrite(bellPin, HIGH); // FIXED: HIGH deactivates relay
+          lcd.clear();
           break;
         }
       }
@@ -651,8 +409,7 @@ void setup() {
   Serial.begin(115200);
   Serial.println("\n\n=== SCHOOL BELL SYSTEM STARTING ===");
   
-  // Initialize LCD I2C
-  Wire.begin();
+  // Initialize LCD
   lcd.init();
   lcd.backlight();
   lcd.clear();
@@ -676,7 +433,7 @@ void setup() {
   Serial.println("Testing Relay...");
   printBoth("Testing Relay", "Please wait...");
   delay(1000);
-  digitalWrite(bellPin, LOW);  // Activate relay
+  digitalWrite(bellPin, HIGH);  // Activate relay
   Serial.println("Relay should be ON now");
   delay(2000);
   digitalWrite(bellPin, HIGH); // Deactivate relay
@@ -700,9 +457,6 @@ void setup() {
     // Sync time
     printBoth("Syncing Time", "Please wait...");
     if (syncTime()) {
-      currentDateString = getCurrentDateString();
-      fetchBellSchedule();
-      sendHeartbeat();
       printBoth("Time Synced", "System Ready");
     } else {
       printBoth("Time Sync Failed", "Using Default");
@@ -747,25 +501,6 @@ void loop() {
       dayOfTheWeek = timeinfo.tm_wday;
       timeSynced = true;
     }
-  }
-
-  if (shouldRefreshSchedule() && WiFi.status() == WL_CONNECTED) {
-    currentDateString = getCurrentDateString();
-    fetchBellSchedule();
-  }
-
-  if (WiFi.status() == WL_CONNECTED && millis() - lastManualRingPoll > MANUAL_RING_POLL_INTERVAL_MS) {
-    lastManualRingPoll = millis();
-    String ringReason = "";
-    if (pollHardwareRingCommand(ringReason)) {
-      if (markRingIfNew()) {
-        ringBell(ringReason);
-      }
-    }
-  }
-
-  if (WiFi.status() == WL_CONNECTED && millis() - lastHeartbeat > HEARTBEAT_INTERVAL_MS) {
-    sendHeartbeat();
   }
   
   // Debug output every minute
